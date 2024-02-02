@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aum's Form</title>
+</head>
+<body>
+    <header>
+        <h1>My Form</h1>
+    </header>
+
+    <main>
+        
+        <form action="./action.php"> <!--A hypothetical backend file just for demo purpose.-->
+            <h5>Enter login details:</h5>
+            <input type="text" placeholder="username"><br><br>
+            <input type="password" placeholder="password">
+            <h5>Select class:</h5>
+            <label for="101">
+                <input type="radio" value="Class XI" name="kaksha" id="101">Class XI
+            </label>
+            <br><br>
+            <label for="102">
+                <input type="radio" value="Class XII" name="kaksha" id="102">Class XII
+            </label>
+            <br>
+            <h5>Select subjects:</h5>
+            <label for="201">
+                <input type="checkbox" value="math" name="subject" id="201">Mathematics
+            </label><br>
+            <label for="202">
+                <input type="checkbox" value="sci" name="subject" id="202">Science
+            </label><br>
+            <label for="203">
+                <input type="checkbox" value="eng" name="subject" id="203">English
+            </label><br>
+            <h5>Feedback:</h5>
+            <textarea placeholder="I liked/disliked your service because..." rows="6" cols="20"></textarea><br><br>
+            City:
+            <select name="city" id="city">
+                <option value="DEL">Delhi</option>
+                <option value="MUM">Mumbai</option>
+                <option value="BLR">Bangalore</option>
+                <option value="PNQ">Pune</option>
+            </select>
+            <br><br>
+            <input type="submit" value="SubmitButton">
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
